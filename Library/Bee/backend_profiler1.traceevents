@@ -1,0 +1,532 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689433180467297, "dur":3287, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433180470598, "dur":176, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689433180470797, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689433180470855, "dur":774, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689433180471669, "dur":1775, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433180473445, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182234228, "dur":311, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182234540, "dur":192, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182234732, "dur":19, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182234751, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182234782, "dur":22829, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257612, "dur":104, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257716, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257725, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257754, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257761, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257778, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257784, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257800, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257806, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257826, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257831, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257845, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257867, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182257922, "dur":12772, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689433180476910, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180476911, "dur":11013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180487925, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689433180489393, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180504877, "dur":6594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689433180511551, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689433180511717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180514973, "dur":11291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1689433180526441, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1689433180526649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180526720, "dur":72955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1689433180599756, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180600094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180600106, "dur":14025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180614219, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180614255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180614278, "dur":29647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180643958, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180643991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180644004, "dur":22954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180666990, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180667027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180667037, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180671119, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180671147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180671158, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180677918, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180677951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180677965, "dur":9742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180687743, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180687785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180687802, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180692572, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180692604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180692614, "dur":10492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180703139, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180703169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180703181, "dur":20096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180723320, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180723399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180723413, "dur":7026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180730472, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180730505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180730522, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180732732, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180732764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180732778, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180736162, "dur":3619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180739788, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433180739813, "dur":9899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433180749752, "dur":586434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181336194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181336207, "dur":9679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181362171, "dur":12271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181374450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181374465, "dur":5131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181379632, "dur":2864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181382505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181382519, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181385732, "dur":177482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181563258, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181563278, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181567143, "dur":254599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181821749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181821763, "dur":8980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181830791, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181830831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181831250, "dur":48611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689433181879898, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181879935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181881247, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181883129, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181883162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181883646, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181885976, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181886015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181886682, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181888996, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1689433181889021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181889131, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1689433181892265, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1689433181892319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181892407, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1689433181895083, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689433181895110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181895123, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689433181898274, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181898668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181898684, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181901202, "dur":2132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181903347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181903365, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1689433181906198, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689433181906221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181906232, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689433181911306, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689433181911333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181911344, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689433181913612, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689433181913645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181913669, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689433181915624, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689433181915739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181915749, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689433181919947, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689433181919979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689433181919993, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689433181922603, "dur":311597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433180476947, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433180476947, "dur":10881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433180487829, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1689433180488041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433180501545, "dur":7120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1689433180508756, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689433180508845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433180509601, "dur":17409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689433180527139, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1689433180527236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433180531557, "dur":96389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1689433180628040, "dur":717146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689433181345194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433181345207, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689433181352132, "dur":819362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689433182171502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689433182171516, "dur":4691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689433182176252, "dur":57972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180475714, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180475715, "dur":12863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180488579, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689433180488699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180504271, "dur":4439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1689433180508793, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689433180509532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180513526, "dur":4575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689433180518251, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1689433180518428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180518512, "dur":5864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1689433180524540, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180524663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180524777, "dur":94312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180619368, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180619444, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180619468, "dur":21498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180641004, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180641041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180641056, "dur":25446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180666557, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180666594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180666609, "dur":6549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180673189, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180673226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180673237, "dur":10843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180684112, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180684142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180684159, "dur":6846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180691042, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433180691075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433180691090, "dur":416705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433181107831, "dur":863715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433181971556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689433181971570, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689433181973889, "dur":260312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180475157, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180475158, "dur":12328, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180487506, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1689433180487509, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180487652, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1689433180487663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180492572, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1689433180498406, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689433180498912, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180502333, "dur":7721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689433180510131, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689433180510200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180515323, "dur":16616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689433180532562, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433180532623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433180533289, "dur":4053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433180537422, "dur":739525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181276955, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181276969, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181281041, "dur":524378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181805426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181805441, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181811533, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181811567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181812245, "dur":41878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181854169, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Plugins/x86_64/UnityMockHMD.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181854209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181854222, "dur":40368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Plugins/x86_64/UnityMockHMD.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689433181894729, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689433181894920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181894936, "dur":20578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689433181915547, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689433181915574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181915585, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689433181920009, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1689433181920344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689433181920354, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1689433181923243, "dur":310956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180475902, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180475903, "dur":13589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180489492, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1689433180489602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180505301, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1689433180508789, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689433180509393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180514789, "dur":4669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689433180519565, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1689433180519650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180519664, "dur":78312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1689433180598057, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180598104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180598115, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180601419, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180601450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180601463, "dur":19799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180621292, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180621394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180621407, "dur":26084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180647522, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180647600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180647614, "dur":21503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180669151, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180669185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180669196, "dur":5194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180674422, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180674453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180674463, "dur":10860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180685353, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180685388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180685400, "dur":32157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180717587, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180718265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180719774, "dur":10953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180730764, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180730809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180730819, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180733439, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180733504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180733519, "dur":3098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180736727, "dur":3014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180739748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180739763, "dur":18162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180757958, "dur":226016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180983983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433180983999, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433180986795, "dur":683051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181669854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181669867, "dur":6788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181676690, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181676747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181676762, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181680580, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181680615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181680767, "dur":7345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181688149, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181688180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181688229, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181690546, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181690578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181690591, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181692918, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181692945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181692958, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181696714, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181696742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181696755, "dur":6679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181703475, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181703507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181703520, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181705677, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181705709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181705722, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181707756, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181707782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181707794, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181710038, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181710108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181710121, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181713985, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181714034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181714050, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181716943, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181716972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181716984, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181719959, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181719989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181720002, "dur":35823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181755866, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181755896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181755909, "dur":4871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181760817, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181760849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181760862, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181763876, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181763905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181763918, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181766815, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181766849, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181766906, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181769607, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181769638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181769652, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181772497, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181772544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181772561, "dur":4391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181776992, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181777024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181777046, "dur":6357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181783439, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181783468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433181783481, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433181786499, "dur":444690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433182231196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689433182231210, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689433182234170, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1689433182234172, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180475770, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180475771, "dur":12429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180488201, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1689433180488340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180501395, "dur":7333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1689433180508809, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1689433180508905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180515840, "dur":5171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1689433180521119, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180521208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180521598, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180526960, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG.exe" }}
+,{ "pid":12345, "tid":6, "ts":1689433180526993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180527000, "dur":18112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG.exe" }}
+,{ "pid":12345, "tid":6, "ts":1689433180545158, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180545218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180545349, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180547263, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180547296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180547315, "dur":23970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180571316, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180571346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180571359, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180574225, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180574929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180574941, "dur":6695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180581671, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180581714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180581728, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180583793, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180583826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180583838, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180586384, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180586419, "dur":190, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180586627, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180589608, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180589656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180589670, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180592944, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180592997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180593021, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180599857, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180599884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180599895, "dur":14269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180614469, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180614512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180614523, "dur":15664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180630218, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180630252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180630266, "dur":18851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180649214, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180649283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433180649309, "dur":22078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433180671430, "dur":533218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433181204659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433181204676, "dur":3246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433181207959, "dur":296757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433181505239, "dur":137, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433181507672, "dur":14219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433181521936, "dur":501644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433182023589, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689433182023605, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689433182027541, "dur":206662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180475847, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180475848, "dur":12210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180488058, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1689433180488186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180502277, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1689433180509613, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1689433180509710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180513755, "dur":12093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1689433180525948, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180526037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180526048, "dur":144501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180670645, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180670681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180670692, "dur":3450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180674170, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180674214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180674226, "dur":10238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180684493, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180684666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180684677, "dur":7822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180692551, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180692580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180692591, "dur":9726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180702346, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180702372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180702388, "dur":14306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180716725, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180716754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180716768, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180720065, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180720090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180720101, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180722635, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180722661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180722671, "dur":5451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180728153, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180728182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180728240, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180732047, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180732084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180732094, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180735259, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180735287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180735297, "dur":11056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180746385, "dur":1948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180748343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433180748357, "dur":11792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433180760178, "dur":447017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433181207203, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433181207228, "dur":131263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433181338529, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433181338558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433181338695, "dur":3113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433181341842, "dur":626473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433181968322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689433181968335, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689433181972105, "dur":262119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180475987, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180475988, "dur":13498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180489488, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1689433180489624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180501432, "dur":9238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1689433180510741, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1689433180510814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180515730, "dur":82848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1689433180598696, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180598779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180598790, "dur":6514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180605347, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180605388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180605404, "dur":21508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180626950, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180626978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180626990, "dur":26923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180653957, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180654013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180654030, "dur":15864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180669922, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180669949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180669963, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180673886, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180673924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180673936, "dur":8123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180682099, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180682128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180682141, "dur":18194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180700382, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180700520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180700531, "dur":16186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180716747, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180716779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180716788, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180719399, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180719429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180719441, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180722202, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180722231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180722246, "dur":6012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180728288, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180728332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180728347, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180732026, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180732058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180732069, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180735103, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180735153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180735170, "dur":8724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180743974, "dur":1908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180745889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180745903, "dur":13980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180759913, "dur":15139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.MockHMD.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180775063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433180775076, "dur":10233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.MockHMD.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433180785362, "dur":445499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433181230868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433181230881, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433181234762, "dur":429154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433181663927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433181663942, "dur":4030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433181668008, "dur":439586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433182107601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689433182107615, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Pepe/Desktop/TFG/Minijuego 3/TFG_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689433182111564, "dur":122661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689433182297121, "dur":12763, "ph":"X", "name": "ProfilerWriteOutput" }
+,
